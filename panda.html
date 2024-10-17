@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Card</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+         body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: white;
+
+        }
+        #container{
+            border: 1px solid rgb(230, 227, 227);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0; 
+        }
+        h2{
+            font-family: 'Press Start 2P';
+            font-size: 18px;
+            margin-bottom: 20px;
+            
+        }
+        #image {
+            border-radius: 50%;
+            overflow: hidden;
+            width: 400px;
+            height: 300px;
+            margin: 0 auto 20px;
+            
+        }
+        #info{
+            text-align: center;
+            justify-content: center;
+        }
+        
+        #info>h2 {
+            color: #a6b318;
+            font-family: 'Press Start 2P';font-size: 22px;
+        }
+        #info>p {
+            font-family: Arial, sans-serif;
+            margin: 5px 0;
+            color: #666;
+        }
+
+        #stars>span {
+            font-size: 40px;
+            color: gold;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Title</h1>
+        <h2>Panda Card</h2>
+        <div  id="container">
+            <div id="image">
+                <img src="https://t4.ftcdn.net/jpg/05/54/52/13/360_F_554521329_ngmDQSjSrUSRnbK2xK0bkcprsinG9Xdv.jpg" alt="panda img">
+            </div>
+            <div id="info">
+                <h2>John Doe</h2>
+                <p>Coumputer Science1</p>
+                <p>Coumputer Science1</p>
+                <p>Year:3</p>
+                <div id="stars">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

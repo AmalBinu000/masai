@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            text-align: left;
+            border: 1px ridge rgb(20, 19, 19);
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        #head{
+            background-color: rgb(15, 107, 15);
+        }
+        #total{
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <table width="100%">
+        <tr id="head" >
+            <th>Product Name</th>
+            <th>Quantity</th>
+            <th>Price per unit</th>
+            <th>Discription</th>
+            <th>Total Price</th>
+        </tr>
+        <tr>
+            <td>Product 1</td>
+            <td>2</td>
+            <td>$10</td>
+            <td>This is product 1</td>
+            <td>$20</td>
+        </tr>
+        <tr>
+            <td>Product 2</td>
+            <td>3</td>
+            <td>$20</td>
+            <td>This is product 2</td>
+            <td>$60</td>
+        </tr>
+        <tr id="total">
+            <td colspan="4">sum</td>
+            <td>$80</td>
+        </tr>
+    </table>
+</body>
+</html>
