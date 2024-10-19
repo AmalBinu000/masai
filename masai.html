@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body, html {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .top{
+            display: flex;
+            justify-content: center;
+            background-color: #fedfe5;
+            padding: 5px;
+        }
+        .top>p{
+            font-family: "Georama", sans-serif;
+            font-size: 20px;
+        }
+        .top>button{
+            background-color: red;
+            color: white;
+            height: 40px;
+            width: 140px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 3%;
+            background-color: white;
+            border-bottom: 1px solid rgb(227, 221, 221);
+        }
+
+        .logo {
+            height: 60px;
+            width: 130px;
+        }
+
+        .nav-links {
+            list-style: none;
+        }
+
+        .nav-links li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+
+        li a {
+            text-decoration: none;
+            font-size: 15px;
+            font-family: sans-serif;
+            color: black;
+            text-transform: uppercase;
+        }
+
+        button {
+            height: 50px;
+            width: 80px;
+            text-transform: uppercase;
+            background-color: white;
+            color: red;
+            border-radius: 10px;
+            border-color: rgb(219, 49, 49);
+            margin-left: 10px;
+            border: 1px solid red;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: white;
+            flex: 1; 
+        }
+
+        video {
+            height: 350px;
+            width: 650px;
+            border: 1px solid rgb(219, 217, 217);
+            border-radius: 20px;
+            margin-top: 50px;
+        }
+
+        h1 {
+            color: #6e71cc;
+            font-size: 50px;
+            font-family: "Georama", sans-serif;
+        }
+
+        p {
+            font-size: 30px;
+            font-family: "Georama", sans-serif;
+            font-weight: 600;
+        }
+
+        .note > button {
+            background-color: red;
+            color: white;
+            height: 60px;
+            width: 150px;
+            font-size: 15px;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #3470e3;
+            padding: 20px 0;
+            height: 130px;
+        }
+
+        footer > div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            color: white;
+        }
+        .impact {
+            font-size: 36px; }
+
+        .stats {
+            font-size: 18px; 
+        }
+
+    </style>
+</head>
+<body>
+    <div class="top">
+        <p>Appliction for our sixth november batches are open!</p>
+        <button>APPLY NOW</button>
+    </div>
+    <header>
+        <img class="logo" src="https://cdn.masaischool.com/masai-website/Masai_Logo_dark_web_b21aab8c62.webp" alt="masai">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Courses</a></li>
+                <li><a href="">Fees</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">Learn</a></li>
+                <li><a href="">Success Stories</a></li>
+                <li><a href="">Hire from us</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>sign up</button></a>
+    </header>
+    <div class="container">
+        <div class="note">
+            <h1>Proof that dreams do</h1>
+            <h1>come true</h1>
+            <p>A testament of what's possible</p>
+            <button>APPLY NOW</button>
+        </div>
+        <div class="video">
+            <video width="600" controls src="https://cdn.masaischool.com/masai-website/cab_driver_became_software_engineer_meet_ashish_raj_from_munger_bihar_1_1080p_808ebc1236.mp4" type="mp4"></video>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <p class="impact">How is Masai creating an Impact</p>
+            <p class="stats">4000 students placed across 100+ companies</p>
+        </div>
+    </footer>
+</body>
+</html>

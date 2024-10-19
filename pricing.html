@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            box-sizing: border-box;
+            margin: 0;
+            background-color: black;
+        }
+        .top > h1 {
+            color: #5822e3;
+            font-size: 25px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            margin-bottom: 5px; 
+        }
+        #first {
+            color: white;
+            font-size: 40px; 
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+        #second {
+            color: #7f8a90;
+            font-size: 20px;
+            margin: 5px 0; 
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+        }
+        .wrapper {
+            width: 100%;
+            overflow: hidden; 
+            padding: 20px; 
+        }
+        .left {
+            float: left;
+            width: 55%; 
+            height: auto; 
+            background-color: rgb(14, 11, 11); 
+            box-sizing: border-box; 
+            margin-left: 5%;
+            border: 1px solid rgb(32, 32, 32);
+            border-radius: 10px;
+            padding: 60px 60px;
+        }
+        .right {
+            float: right;
+            width: 35%; 
+            height: auto; 
+            background-color: rgb(14, 11, 11); 
+            padding: 50px; 
+            box-sizing: border-box; 
+            margin-top: 20px;
+            margin-right: 5%;
+            border: 1px solid rgb(32, 32, 32);
+            border-radius: 10px;
+        }
+
+        h1{
+            color: white;
+            font-size: 30px;
+            font-family: "Roboto", sans-serif;
+            padding-bottom: 10px;
+        }
+        p{
+            color: rgb(132, 130, 130);
+            font-size: 15px;
+            font-family: "Roboto", sans-serif;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            column-count: 2;
+            column-gap: 20px;
+        }
+        li {
+            color: rgb(132, 130, 130);
+            font-size: 20px;
+            font-family: "Roboto", sans-serif;
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 10px;
+        }
+        li::before {
+            content: '✔';
+            color: #5822e3;
+            position: absolute;
+            left: 0;
+            font-size: 20px;
+        }
+        button {
+            background-color: #5822e3;
+            color: white;
+            height: 50px;
+            width: 95%;
+            border-radius: 10px;
+            font-size: 18px;
+            font-family: "Roboto", sans-serif;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #3f17b8;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <h1>Pricing</h1>
+        <p id="first">One Price for Everything</p>
+        <p id="second">The simplest pricing in the industry. You won't need a calculator for this</p>
+    </div>
+    <div class="wrapper">
+        <!-- Pro Section -->
+        <div class="left">
+            <h1>Pro</h1>
+            <p>Includes everything you need for your professional website</p>   
+            <ul>
+                <li>Custom Domains</li>
+                <li>GDPR Solution</li>
+                <li>Beautiful Site Design</li>
+                <li>Super-Fast Hosting</li>
+                <li>Analytics</li>
+                <li>Custom Forms</li>
+                <li>Blogging</li>
+                <li>Password Protection</li>
+                <li>Multilingual Sites</li>
+                <li>User Management</li>
+                <li>Unlimited Pages</li>
+                <li>Unlimited Team Members</li>
+            </ul>
+            <button>Get Started</button>
+        </div>
+
+        <!-- Basic Section -->
+        <div class="right">
+            <h1>Basic</h1>
+            <p>Publish your site for free with almost all Pro features</p>
+            <h1>Free</h1>
+            <p>Everything from Pro, except:</p>
+            <p>- No Custom Domains</p>
+            <p>- "Made with Umso" Branding</p>
+            <p>No credit card required</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+
+        body {
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            background-color: black;
+        }
+        #container{
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            height: 100%;
+            width: 100%;
+            margin-top: 200px;
+            
+        }
+        div{
+            height: 350px;
+            width: 250px;
+            margin: 10px;
+        }
+        #container > div:nth-child(1) {
+            background-color: blanchedalmond;
+        }
+        #container > div:nth-child(2) {
+            background-color: rgb(92, 20, 127);
+        }
+        #container > div:nth-child(3) {
+            background-color: rgb(35, 56, 163);
+        }
+        #container > div:nth-child(4) {
+            background-color: rgb(146, 28, 28);
+        }
+        #container:hover > div {
+            opacity: 0.5; 
+        }
+       
+        #container > div:hover {
+            opacity: 1; 
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
