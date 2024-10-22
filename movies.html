@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Grid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        .grid-item {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .grid-item h3 {
+            margin: 10px 0;
+        }
+
+        .grid-item p {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+
+        .grid-item button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .grid-item button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2024-09-18/Screenshot%202024-09-18%20161253_184495.png" alt="Doctor Strange 2">
+            <h3>Doctor Strange 2</h3>
+            <p>Rating: 4.5</p>
+            <button>Book now</button>
+        </div>
+        <div class="grid-item">
+            <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2024-09-18/Screenshot%202024-09-18%20161253_184495.png" alt="Bhool Bhulaiyaa 2">
+            <h3>Bhool Bhulaiyaa 2</h3>
+            <p>Rating: 4.5</p>
+            <button>Book now</button>
+        </div>
+        <div class="grid-item">
+            <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2024-09-18/Screenshot%202024-09-18%20161253_184495.png" alt="Jayeshbhai Jordaar">
+            <h3>Jayeshbhai Jordaar</h3>
+            <p>Rating: 4.5</p>
+            <button>Book now</button>
+        </div>
+        <div class="grid-item">
+            <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2024-09-18/Screenshot%202024-09-18%20161253_184495.png" alt="Jurassic World">
+            <h3>Jurassic World</h3>
+            <p>Rating: 4.5</p>
+            <button>Book now</button>
+        </div>
+        <div class="grid-item">
+            <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2024-09-18/Screenshot%202024-09-18%20161253_184495.png" alt="KGF2">
+            <h3>KGF2</h3>
+            <p>Rating: 4.5</p>
+            <button>Book now</button>
+        </div>
+        <div class="grid-item">
+            <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2024-09-18/Screenshot%202024-09-18%20161253_184495.png" alt="RRR">
+            <h3>RRR</h3>
+            <p>Rating: 4.5</p>
+            <button>Book now</button>
+        </div>
+    </div>
+</body>
+</html>

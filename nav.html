@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      nav {
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 20px 0px;
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+        background-color: white;
+      }
+      #left {
+        width: 15%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      #right {
+        width: 65%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-transform: uppercase;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+      }
+      select{
+        border: 0;
+        height: auto;
+        width: auto;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        padding: 0 20px;
+
+      }
+      #button1 {
+        background-color: #f4fdff;
+        height: 35px;
+        width: 150px;
+        border: 0;
+        border-radius: 10px;
+        color: #b7bee4;
+      }
+      #button2 {
+        background-color: white;
+        height: 40px;
+        width: 80px;
+        border: 1px solid red;
+        border-radius: 10px;
+        color: red;
+      }
+      #left img {
+        width: 114px;
+        height: 40px;
+      }
+
+      #right > p:hover {
+        color: #ed0331;
+        cursor: pointer;
+      }
+
+      
+      
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div id="left">
+        <img
+          src="https://cdn.masaischool.com/masai-website/Masai_Logo_dark_web_b21aab8c62.webp"
+          alt="masai-logo" />
+      </div>
+      <div id="right">
+        <select>
+            <option value="">COURSES</option>
+        </select>
+        <p>FEES & ISA</p>
+        <p>ABOUT US</p>
+        <p>HIRE FROM US</p>
+        <p>FAQ</p>
+        <p>EVENTS</p>
+        <button id="button1">REFER & EARN</button>
+        <Button id="button2">LOGIN</Button>
+      </div>
+    </nav>
+  </body>
+  </html>
